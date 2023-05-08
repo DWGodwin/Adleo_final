@@ -1,0 +1,91 @@
+2023-05-06 23:52:39,635 [INFO    ] Saving logs, configs and models to results\drc_dem_seg2rgb_bs1_ep80_cap64_2023_05_06_23_52
+2023-05-06 23:52:39,665 [INFO    ] Dataset DRC
+    Number of datapoints: 387
+    Root location: data
+    Compose(
+    <datasets.transforms.ToTensor object at 0x0000025A303E5A00>
+    <datasets.transforms.RandomCrop object at 0x0000025A3D687730>
+    <datasets.transforms.RandomHorizontalFlip object at 0x0000025A3D6B9E50>
+    <datasets.transforms.RandomVerticalFlip object at 0x0000025A3D6B9FD0>
+    <datasets.transforms.OneHot object at 0x0000025A3D789D30>
+)
+2023-05-06 23:56:11,015 [INFO    ] epoch   1, g_loss:  8.978, d_loss:  3.477
+2023-05-06 23:59:41,800 [INFO    ] epoch   2, g_loss:  6.999, d_loss:  2.749
+2023-05-07 00:03:12,312 [INFO    ] epoch   3, g_loss:  6.577, d_loss:  1.754
+2023-05-07 00:06:42,171 [INFO    ] epoch   4, g_loss:  6.563, d_loss:  1.553
+2023-05-07 00:10:12,116 [INFO    ] epoch   5, g_loss:  6.610, d_loss:  1.715
+2023-05-07 00:13:42,717 [INFO    ] epoch   6, g_loss:  6.646, d_loss:  2.090
+2023-05-07 00:17:13,198 [INFO    ] epoch   7, g_loss:  6.967, d_loss:  2.441
+2023-05-07 00:20:42,757 [INFO    ] epoch   8, g_loss:  6.815, d_loss:  2.536
+2023-05-07 00:24:12,709 [INFO    ] epoch   9, g_loss:  6.324, d_loss:  2.514
+2023-05-07 00:27:51,399 [INFO    ] epoch  10, g_loss:  6.142, d_loss:  2.788
+2023-05-07 00:31:36,896 [INFO    ] epoch  11, g_loss:  6.377, d_loss:  2.896
+2023-05-07 00:35:27,552 [INFO    ] epoch  12, g_loss:  6.597, d_loss:  2.890
+2023-05-07 00:39:21,885 [INFO    ] epoch  13, g_loss:  6.769, d_loss:  3.063
+2023-05-07 00:43:18,514 [INFO    ] epoch  14, g_loss:  6.715, d_loss:  3.037
+2023-05-07 00:47:18,458 [INFO    ] epoch  15, g_loss:  7.172, d_loss:  3.062
+2023-05-07 00:51:20,509 [INFO    ] epoch  16, g_loss:  7.262, d_loss:  2.987
+2023-05-07 00:55:23,381 [INFO    ] epoch  17, g_loss:  7.312, d_loss:  3.019
+2023-05-07 00:59:29,656 [INFO    ] epoch  18, g_loss:  7.445, d_loss:  2.861
+2023-05-07 01:03:36,760 [INFO    ] epoch  19, g_loss:  7.553, d_loss:  3.018
+2023-05-07 01:07:47,399 [INFO    ] epoch  20, g_loss:  7.477, d_loss:  2.936
+2023-05-07 01:11:56,948 [INFO    ] epoch  21, g_loss:  7.618, d_loss:  2.991
+2023-05-07 01:16:10,572 [INFO    ] epoch  22, g_loss:  7.628, d_loss:  2.968
+2023-05-07 01:20:24,396 [INFO    ] epoch  23, g_loss:  7.746, d_loss:  2.885
+2023-05-07 01:24:40,122 [INFO    ] epoch  24, g_loss:  7.728, d_loss:  2.926
+2023-05-07 01:28:57,024 [INFO    ] epoch  25, g_loss:  7.803, d_loss:  3.109
+2023-05-07 01:33:17,630 [INFO    ] epoch  26, g_loss:  7.845, d_loss:  3.196
+2023-05-07 01:37:39,366 [INFO    ] epoch  27, g_loss:  7.944, d_loss:  3.259
+2023-05-07 01:42:01,288 [INFO    ] epoch  28, g_loss:  7.887, d_loss:  3.362
+2023-05-07 01:46:23,471 [INFO    ] epoch  29, g_loss:  7.770, d_loss:  3.446
+2023-05-07 01:50:49,859 [INFO    ] epoch  30, g_loss:  7.495, d_loss:  3.441
+2023-05-07 01:55:15,800 [INFO    ] epoch  31, g_loss:  7.371, d_loss:  3.492
+2023-05-07 01:59:44,283 [INFO    ] epoch  32, g_loss:  7.381, d_loss:  3.545
+2023-05-07 02:04:15,448 [INFO    ] epoch  33, g_loss:  7.415, d_loss:  3.565
+2023-05-07 02:08:44,818 [INFO    ] epoch  34, g_loss:  7.285, d_loss:  3.548
+2023-05-07 02:13:16,553 [INFO    ] epoch  35, g_loss:  7.124, d_loss:  3.577
+2023-05-07 02:17:47,075 [INFO    ] epoch  36, g_loss:  6.985, d_loss:  3.651
+2023-05-07 02:22:22,610 [INFO    ] epoch  37, g_loss:  6.868, d_loss:  3.642
+2023-05-07 02:26:54,868 [INFO    ] epoch  38, g_loss:  6.796, d_loss:  3.647
+2023-05-07 02:31:27,815 [INFO    ] epoch  39, g_loss:  6.848, d_loss:  3.692
+2023-05-07 02:36:04,036 [INFO    ] epoch  40, g_loss:  6.537, d_loss:  3.684
+2023-05-07 02:40:40,755 [INFO    ] epoch  41, g_loss:  6.428, d_loss:  3.707
+2023-05-07 02:45:18,330 [INFO    ] epoch  42, g_loss:  6.378, d_loss:  3.736
+2023-05-07 02:49:56,537 [INFO    ] epoch  43, g_loss:  6.279, d_loss:  3.726
+2023-05-07 02:54:34,293 [INFO    ] epoch  44, g_loss:  6.107, d_loss:  3.708
+2023-05-07 02:59:14,095 [INFO    ] epoch  45, g_loss:  6.149, d_loss:  3.751
+2023-05-07 03:03:51,534 [INFO    ] epoch  46, g_loss:  5.877, d_loss:  3.747
+2023-05-07 03:08:28,745 [INFO    ] epoch  47, g_loss:  5.757, d_loss:  3.752
+2023-05-07 03:13:09,148 [INFO    ] epoch  48, g_loss:  5.794, d_loss:  3.762
+2023-05-07 03:17:47,566 [INFO    ] epoch  49, g_loss:  5.685, d_loss:  3.745
+2023-05-07 03:22:27,978 [INFO    ] epoch  50, g_loss:  5.695, d_loss:  3.737
+2023-05-07 03:27:07,573 [INFO    ] epoch  51, g_loss:  5.621, d_loss:  3.752
+2023-05-07 03:31:47,820 [INFO    ] epoch  52, g_loss:  5.672, d_loss:  3.724
+2023-05-07 03:36:27,825 [INFO    ] epoch  53, g_loss:  5.523, d_loss:  3.723
+2023-05-07 03:41:07,838 [INFO    ] epoch  54, g_loss:  5.519, d_loss:  3.752
+2023-05-07 03:45:49,737 [INFO    ] epoch  55, g_loss:  5.566, d_loss:  3.719
+2023-05-07 03:50:31,670 [INFO    ] epoch  56, g_loss:  5.506, d_loss:  3.723
+2023-05-07 03:55:12,876 [INFO    ] epoch  57, g_loss:  5.437, d_loss:  3.719
+2023-05-07 03:59:53,091 [INFO    ] epoch  58, g_loss:  5.208, d_loss:  3.719
+2023-05-07 04:04:34,988 [INFO    ] epoch  59, g_loss:  5.234, d_loss:  3.736
+2023-05-07 04:09:15,629 [INFO    ] epoch  60, g_loss:  5.191, d_loss:  3.727
+2023-05-07 04:13:57,877 [INFO    ] epoch  61, g_loss:  5.205, d_loss:  3.754
+2023-05-07 04:18:39,699 [INFO    ] epoch  62, g_loss:  5.159, d_loss:  3.740
+2023-05-07 04:23:21,566 [INFO    ] epoch  63, g_loss:  5.149, d_loss:  3.736
+2023-05-07 04:28:03,645 [INFO    ] epoch  64, g_loss:  4.950, d_loss:  3.729
+2023-05-07 04:32:44,384 [INFO    ] epoch  65, g_loss:  4.973, d_loss:  3.738
+2023-05-07 04:37:27,821 [INFO    ] epoch  66, g_loss:  4.939, d_loss:  3.757
+2023-05-07 04:42:11,663 [INFO    ] epoch  67, g_loss:  4.935, d_loss:  3.758
+2023-05-07 04:46:54,615 [INFO    ] epoch  68, g_loss:  4.846, d_loss:  3.786
+2023-05-07 04:51:38,248 [INFO    ] epoch  69, g_loss:  4.904, d_loss:  3.757
+2023-05-07 04:56:20,716 [INFO    ] epoch  70, g_loss:  4.859, d_loss:  3.747
+2023-05-07 05:01:05,860 [INFO    ] epoch  71, g_loss:  4.827, d_loss:  3.757
+2023-05-07 05:05:49,866 [INFO    ] epoch  72, g_loss:  4.715, d_loss:  3.725
+2023-05-07 05:10:34,252 [INFO    ] epoch  73, g_loss:  4.770, d_loss:  3.755
+2023-05-07 05:15:18,012 [INFO    ] epoch  74, g_loss:  4.765, d_loss:  3.752
+2023-05-07 05:20:01,058 [INFO    ] epoch  75, g_loss:  4.718, d_loss:  3.732
+2023-05-07 05:24:44,643 [INFO    ] epoch  76, g_loss:  4.671, d_loss:  3.767
+2023-05-07 05:29:27,813 [INFO    ] epoch  77, g_loss:  4.634, d_loss:  3.747
+2023-05-07 05:34:12,093 [INFO    ] epoch  78, g_loss:  4.668, d_loss:  3.749
+2023-05-07 05:38:53,838 [INFO    ] epoch  79, g_loss:  4.707, d_loss:  3.731
+2023-05-07 05:43:37,576 [INFO    ] epoch  80, g_loss:  4.676, d_loss:  3.747
